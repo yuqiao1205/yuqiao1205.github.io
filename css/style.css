@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: rgb(252,214,220);
+    background-color: rgb(231, 228, 216);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,7 +18,7 @@ body {
     width:100%;
     max-width: 1000px;
     min-height: 1000px;
-    background-color: #fff;
+    background-color: rgb(125, 168, 202);
     margin: 50px;
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -28,7 +28,7 @@ body {
 
 .container .leftSide {
     position: relative;
-    background-color: rgb(241,126,126);
+    background-color: rgb(55, 65, 100);
     padding:40px;
 }
 
@@ -132,7 +132,7 @@ body {
 }
 
 .about {
-    margin-bottom: 50px;
+    margin-bottom: 15px;
 }
 
 .about:last-child {
