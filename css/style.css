@@ -127,7 +127,7 @@ body {
 
 .container .rightSide {
     position: relative;
-    background-color: white;
+    background-color: rgb(223, 233, 237);
     padding:40px;
 }
 
@@ -140,7 +140,7 @@ body {
 }
 
 .title2 {
-    color:rgb(241,126,126);
+    color:rgb(27, 29, 48);
     margin-bottom: 10px;
 }
 
@@ -158,12 +158,12 @@ p {
 }
 
 .about .box .year-company h5 {
-    color:darkgray;
+    color:rgb(27, 47, 97);
 }
 
 .about .box .text h4 {
-    color:rgb(241,126,126);
-    font-size: 16px;
+    color:rgb(234, 152, 36);
+    font-size: 18px;
 }
 
 .skills .box {
@@ -176,14 +176,14 @@ p {
 }
 
 .skills .box h4 {
-    color:darkgrey;
+    color:rgb(19, 16, 13);
 }
 
 .skills .box .percent {
     position: relative;
     width: 100%;
     height: 10px;
-    background-color: pink;
+    background-color: rgb(238, 210, 153);
 }
 
 .skills .box .percent div {
@@ -191,7 +191,7 @@ p {
     top:0;
     left:0;
     height: 100%;
-    background-color: coral;
+    background-color: rgb(234, 152, 36);
 }
 
 .interest ul {
