@@ -18,7 +18,6 @@ body {
     width:100%;
     max-width: 1000px;
     min-height: 1000px;
-    background-color: rgb(125, 168, 202);
     margin: 50px;
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -28,7 +27,7 @@ body {
 
 .container .leftSide {
     position: relative;
-    background-color: rgb(55, 65, 100);
+    background-color:rgba(228,181,180,255);
     padding:40px;
 }
 
@@ -48,8 +47,8 @@ body {
 }
 
 .profile h2{
-    color: #fff;
-    font-size: 1em;
+    color: rgb(87, 78, 78);
+    font-size: 1.5em;
     margin-top: 20px;
     text-transform:uppercase;
     text-align: center;
@@ -66,7 +65,7 @@ body {
 }
 
 .contactInfo .title {
-    color:#fff;
+    color:rgb(88, 38, 38);
     margin-bottom: 20px;
 }
 
@@ -84,11 +83,11 @@ body {
      display: inline-block;
      width: 30px;
      font-size: 18px;
-     color: pink;
+     color: rgb(23, 3, 6);
 }
 
 .contactInfo ul li .text {
-    color:#fff;
+    color:rgb(76, 74, 74);
 }
 
 .contactInfo ul li a {
@@ -105,14 +104,14 @@ body {
 }
 
 .contactInfo.education h4 {
-    color:white;
+    color:rgb(76, 74, 74);
 }
 
 .contactInfo.language .percent {
     position: relative;
     width:100%;
     height: 6px;
-    background-color: pink;
+    background-color: rgb(216, 206, 206);
     display: block;
     margin-top: 5px;
 }
@@ -121,13 +120,13 @@ body {
     top:0;
     left:0;
     height: 100%;
-    background-color: coral;
+    background-color:rgb(202, 108, 124);
 }
 
 
 .container .rightSide {
     position: relative;
-    background-color: rgb(223, 233, 237);
+    background-color: rgb(232, 241, 241);
     padding:40px;
 }
 
@@ -142,10 +141,11 @@ body {
 .title2 {
     color:rgb(27, 29, 48);
     margin-bottom: 10px;
+    font-family:'Times New Roman', Times, serif
 }
 
 p {
-    color:#333;
+    color:rgb(18, 17, 17);
 }
 
 .about .box {
@@ -158,11 +158,11 @@ p {
 }
 
 .about .box .year-company h5 {
-    color:rgb(27, 47, 97);
+    color:rgb(102, 52, 62);;
 }
 
 .about .box .text h4 {
-    color:rgb(234, 152, 36);
+    color:rgb(102, 52, 62);
     font-size: 18px;
 }
 
@@ -183,7 +183,7 @@ p {
     position: relative;
     width: 100%;
     height: 10px;
-    background-color: rgb(238, 210, 153);
+    background-color: rgb(238, 194, 219);
 }
 
 .skills .box .percent div {
@@ -191,7 +191,7 @@ p {
     top:0;
     left:0;
     height: 100%;
-    background-color: rgb(234, 152, 36);
+    background-color: rgb(187, 94, 150);
 }
 
 .interest ul {
