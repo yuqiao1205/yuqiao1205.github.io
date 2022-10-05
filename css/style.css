@@ -12,6 +12,7 @@ body {
     align-items: center;
     min-height: 100vh;
     box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+    font-family: sans-serif;
 }
 .container {
     position: relative;
@@ -191,7 +192,7 @@ p {
     top:0;
     left:0;
     height: 100%;
-    background-color: rgb(187, 94, 150);
+    background-color: rgb(228, 99, 177);
 }
 
 .interest ul {
