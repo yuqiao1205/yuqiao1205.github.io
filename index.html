@@ -2,277 +2,173 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-   
+    <title>Yan Peng - Resume</title>
     <link rel="stylesheet" href="css/style.css">
-    <title>Resume</title>
 </head>
 <body>
-    <div class="container">
-        <div class="leftSide">
-           <div class="profile">
-               <img src="imgs/home-img.png" alt="personal pic">
-               <h2>Yan Peng <br><span>Student </span></h2>
-           </div>
+    <div class="resume">
+        <header class="header">
+            <div class="profile-info">
+                <img src="imgs/home-img.png" alt="Yan Peng" class="profile-img">
+                <div class="name-title">
+                    <h1>Yan Peng</h1>
+                    <p>Computer Science</p>
+                </div>
+            </div>
+            <div class="contact-info">
+                <p>415-802-4960 | loran1226@gmail.com | Daly City, CA</p>
+                <p><a href="https://yuqiao1205.github.io/portfolio/">My Portfolio</a></p>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                    <span class="theme-icon">🌙</span>
+                </button>
+            </div>
+        </header>
 
-           <div class="contactInfo">
-               <h3 class="title">Contact</h3>
-               <ul>
-                   <li>
-                    <span class="material-icons">
-                        call
-                        </span>
-                    <span class="text">415-802-4960</span>
-                   </li>
-                   <li>
-                    <span class="material-icons">
-                        email
-                        </span>
-                    <span class="text">loran1226@gmail.com</span>
-                   </li>
-                   <li>
-                    <span class="material-icons">
-                        language
-                        </span>
-                    <a href="https://github.com/yuqiao1205"><span class="text">My Github</span></a>
-                   </li>
-                   <li>
-                    <span class="material-icons">
-                        location_on
-                        </span>
-                    <span class="text">Daly City, CA</span>
-                   </li>
-               </ul>
-           </div>
+        <section class="summary">
+            <h2>Professional Summary</h2>
+            <p>Energetic and passionate Computer Science graduate with strong full-stack and AI development experience. Seeking opportunities to build real-world products and AI-driven applications. Skilled in React, Next.js, Express, JavaScript, SQL, Java, HTML/CSS, and database systems, with hands-on experience creating multiple AI projects using agentic AI techniques, RAG pipelines, and MCP. A clear and confident communicator fluent in English, Chinese, and Japanese.</p>
+        </section>
 
-           <div class="contactInfo education">
-               <h3 class="title">Education</h3>
-                 <ul>
-                     <li>
-                        <h4>BS in Computer Science</h4>
-                         <h4>San Francisco State University</h4>
-                         
-                         <br>
-                         <p style="color:rgb(84, 73, 75)">* GPA:4.0</p>
-                         <p style="color:rgb(84, 73, 75)">* Honors & Awards:  Dean's List <br>in 2 semsters</p>
-                     </li>
-                 </ul>
-           </div>
+        <section class="projects">
+            <h2>Projects</h2>
 
-           <div class="contactInfo language">
-                <h3 class="title">Language</h3>
-                <ul>
-                    <li> <span class="text">English</span> </li>
-                    <li> <span class="percent">
-                        <div style="width:calc(90/90*100%)"></div>
+            <div class="project">
+                <h3>Agentic AI Cosmetic Ingredient Risk Analyzer</h3>
+                <p class="project-tech">Python, LlamaIndex, ChromaDB, Ollama LLM, Tesseract OCR</p>
+                <p>A proactive AI assistant that evaluates cosmetic and skincare products, providing detailed ingredient risk analysis and product safety scoring. Features multiple input methods (image upload, URL scraping, manual input), OCR text extraction, local LLM analysis with risk categorization (High/Medium/Low), and automatic database updates for privacy-focused, fast processing without external APIs.</p>
+            </div>
 
-                    </span> </li>
+            <div class="project">
+                <h3>TravelWise</h3>
+                <p class="project-tech">React, Node.js, Express, MySQL, Azure</p>
+                <p>Built a full-stack travel blogging platform with AI-powered features including a chatbot for recommendations, destination vision detection, and real-time weather updates. Developed REST APIs, system architecture, and project documentation, and implemented user-friendly UI with responsive design.</p>
+            </div>
 
-                    <li> <span class="text">Japanese</span> </li>
-                    <li> <span class="percent">
-                        <div style="width:calc(80/90*100%)"></div>
+            <div class="project">
+                <h3>EventHub</h3>
+                <p class="project-tech">Spring Boot, MyBatis, React, Material UI, MySQL</p>
+                <p>Developed a responsive event management web application supporting full CRUD for events, categories, and articles. Implemented user profile management including password, picture, and account updates. Integrated Spring Boot backend with a modern React + Material UI frontend.</p>
+            </div>
 
-                    </span> </li>
+            <div class="project">
+                <h3>Photo Gallery</h3>
+                <p class="project-tech">Node.js, Express, JavaScript, MySQL, Handlebars</p>
+                <p>Created a full-stack image posting platform with authentication, image uploads, searching, and commenting. Implemented permission levels for guests and registered users, and built a dynamic, template-driven UI using Handlebars and custom CSS.</p>
+            </div>
 
-                    <li> <span class="text">Chinese</span> </li>
-                    <li> <span class="percent">
-                        <div style="width:calc(90/90*100%)"></div>
+            <div class="project">
+                <h3>Movie Review App</h3>
+                <p class="project-tech">Next.js, IMDB API</p>
+                <p>Developed a movie discovery web app using Next.js and IMDB API. Implemented search, trending, and top-rated movie sections, plus detailed movie pages. Added responsive design and a dark/light mode toggle for improved user experience.</p>
+            </div>
 
-                    </span> </li>
-                </ul>
+            <div class="project">
+                <h3>Images Identify Mobile App</h3>
+                <p class="project-tech">React Native, Expo, AI, Clerk</p>
+                <p>Built an AI-powered mobile app that identifies locations from photos using serverless functions. Added secure authentication with Clerk, interactive map views, and custom photo decoration with emojis. Designed for smooth user flow and device-friendly UI.</p>
+            </div>
 
-           </div>
+            <div class="project">
+                <h3>MovieMate Mobile App</h3>
+                <p class="project-tech">React Native, Expo, TMDB</p>
+                <p>Created a mobile movie browsing app integrated with TMDB API. Implemented "Now Playing" and "Coming Soon" sections with detailed info and trailers. Delivered a clean interface optimized for mobile devices.</p>
+            </div>
 
-           <div class="contactInfo language">
-            <h3 class="title">CERTIFICATIONS</h3>
-            <ul>
-                <li> <span class="text">Japanese Language Certificate(N1)</span> </li>
-                <li> <span class="text">Japanese Business Certificate(J2)</span> </li>
-                
+            <div class="project">
+                <h3>Handwritten Digit Recognition</h3>
+                <p class="project-tech">PyTorch, CNN</p>
+                <p>Developed and trained a Convolutional Neural Network (CNN) on the MNIST dataset for digit classification. Evaluated accuracy and demonstrated expertise in deep-learning model implementation.</p>
+            </div>
+
+            <div class="project">
+                <h3>User Management System</h3>
+                <p class="project-tech">Spring Boot, MySQL, React</p>
+                <p>Built a user CRUD management system with a Spring Boot backend and React frontend. Implemented creating, reading, updating, and deleting user accounts with a clean, responsive UI.</p>
+            </div>
+        </section>
+
+        <section class="education">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>Bachelor of Science in Computer Science</h3>
+                <p>San Francisco State University</p>
+                <p>GPA: 4.0 | Dean's List (2 semesters)</p>
+            </div>
+        </section>
+
+        <section class="skills">
+            <h2>Technical Skills</h2>
+            <ul class="skills-grid">
+                <li>Java</li>
+                <li>Node.js</li>
+                <li>Express</li>
+                <li>React</li>
+                <li>Next.js</li>
+                <li>React Native</li>
+                <li>JavaScript</li>
+                <li>HTML/CSS</li>
+                <li>Python</li>
+                <li>PyTorch</li>
+                <li>C++</li>
+                <li>Spring Boot</li>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+                <li>AI/ML</li>
             </ul>
+        </section>
 
-       </div>
-
-
-        </div>
-
-        <div class="rightSide">
-            <div class="about">
-                <h2 class="title2">PROFILE</h2>
-                <p>An energetic and passionate college student working toward a BS in computer science at San Francisco State University. 
-                Aim to use coding and problem-solving strategies knowledge to satisfy the company’s internship.
-                Possess strong communication skills with fluency in English, Chinese and Japanese. </p>
+        <section class="languages-certifications">
+            <h2>Languages & Certifications</h2>
+            <div class="languages">
+                <p><strong>Languages:</strong> English (Native), Chinese (Native), Japanese (Advanced)</p>
             </div>
-
-            <div class="about">
-                <h2 class="title2">Relevant Coursework</h2>
-                <p>Software Development,Analysis of Algotithms,Database Systems, Data Structure </p><br>
-                  
-                <h2 class="title2">SCHOOL PROJECT</h2>
-
-                <div class="box">
-                    <div class="year-company">
-                        <h5>2021.9 - 2021.10</h5>
-                        <h5>Java</h5>
-
-                    </div>
-
-                    <div class="text">
-                        <h4>Calculator</h4>
-                        <p>Implement an infix expression evaluator given a code skeleton, and perform essential mathematical functions using two stacks.<br>
-                        Used Java swing to make calculator input GUI.</p>
-                    </div>
-                </div>
-
-                <div class="box">
-                    <div class="year-company">
-                        <h5>2021.11 - 2021.12</h5>
-                        <h5>Java</h5>
-
-                    </div>
-
-                    <div class="text">
-                        <h4>Compiler</h4>
-                        <p> Implement compiler from the lexer, parser, and interpreter to the debugger. Converting the source code of a computer program into a sequence of tokens, and transforms them into an abstract syntax tree.
-                            Interprets a single file, reads each line of byte code, manages a stack <br> 
-                        </p>
-                    </div>
-                </div>
-
-                <div class="box">
-                    <div class="year-company">
-                        <h5>2022.1 - 2022.5</h5>
-                        <h5>
-                            Javascript,Nodejs<br>
-                            CSS,HTML,Express</h5>
-
-                    </div>
-
-                    <div class="text">
-                        <h4>Image Post Application</h4>
-                        <p>Implement login, register, post images, search, and make comments functions based on unregistered users and registered users' different access. </p>
-                    </div>
-                </div>
-                <h2 class="title2">PERSONAL PROJECT</h2>
-                <div class="box">
-                    <div class="year-company">
-                        <h5>2020.1 - 2020.10</h5>
-                        <h5>JAVA </h5>
-                    </div>
-                    <div class="text">
-                        <h4>Banking System</h4>
-                        <p>Implement checking account, saving acount, and cash deposit feature.This project including creating any type of account, resetting, show account details and withdrawing functions.Used Java FX to make the input GUI</p>
-                    </div>
-                </div>
-                
-                    
-                <div class="box">
-                    <div class="year-company">
-                        <h5>2021.3 - 2021.11</h5>
-                        <h5>JavaScript, CSS<br>HTML </h5>
-                    </div>
-                    <div class="text">
-                        <h4>Brick Game</h4>
-                        <p>Implement brick game including calculating points, faster ball speed for each level and when all bricks are eliminated, users pass next level.Implement keyboard and mouse move to control game.</p>
-                    </div>
-                </div>
-
-                <div class="box">
-                    <div class="year-company">
-                        <h5>2022.5 - 10</h5>
-                        <h5>JAVA </h5>
-                    </div>
-                    <div class="text">
-                        <h4>Currency Conversion</h4>
-                        <p>Spring-boot based currency rate conversion app using SQL/Cache and external API to retrieve current currency rates.</p>
-                    </div>
-                </div>
-            
-            </div>
-
-
-           <div class="about skills">
-                <h2 class="title2">SKILLS</h2>
-                 <div class="box">
-                    <h4>HTML</h4>
-                    <div class="percent">
-                        <div style="width:95%"></div>
-                    </div>
-
-                 </div>
-
-                 <div class="box">
-                    <h4>CSS</h4>
-                    <div class="percent">
-                        <div style="width:88%"></div>
-                    </div>
-
-                 </div>
-
-                 <div class="box">
-                    <h4>JavaScriptL</h4>
-                    <div class="percent">
-                        <div style="width:95%"></div>
-                    </div>
-
-                 </div>
-
-                 <div class="box">
-                    <h4>Java</h4>
-                    <div class="percent">
-                        <div style="width:90%"></div>
-                    </div>
-
-                 </div>
-
-                 <div class="box">
-                    <h4>C++</h4>
-                    <div class="percent">
-                        <div style="width:80%"></div>
-                    </div>
-
-                 </div>
-
-                 <div class="box">
-                    <h4>SQL</h4>
-                    <div class="percent">
-                        <div style="width:80%"></div>
-                    </div>
-
-                 </div>
-           </div>
-
-           <div class="about interest">
-              <h2 class="title2">Hobbies</h2>
+            <div class="certifications">
+                <p><strong>Certifications:</strong></p>
                 <ul>
-                  
-                    <li>
-                        <span class="material-icons" style="vertical-align:-6px;">
-                            code
-                            </span>
-                        Coding</li>
-                    <li>
-                        <span class="material-icons" style="vertical-align:-6px;">
-                            nightlife
-                            </span>
-                        Jazz</li>
-                    <li>
-
-                        <span class="material-icons" style="vertical-align:-6px;">
-                            paid
-                            </span>Real Estate</li>
+                    <li>Meta Frontend Developer Certificate</li>
+                    <li>IBM RAG and Agentic AI Professional Certificate</li>
+                    <li>Japanese Language Proficiency Test N1</li>
+                    <li>Japanese Business Proficiency Test J2</li>
                 </ul>
+            </div>
+        </section>
 
-           </div>
+        <section class="coursework">
+            <h2>Relevant Coursework</h2>
+            <p>Software Engineering, Data Structures and Algorithms, Database Management Systems, Web Programming, Operating Systems, Object-Oriented Programming, Computer Architecture.</p>
+        </section>
 
-
-
-
-
-        </div>
+        <section class="interests">
+            <h2>Interests</h2>
+            <p>Coding, AI Projects, Tennis & Table Tennis, Photography, Traveling, Jazz</p>
+        </section>
     </div>
+
+    <script>
+        // Theme toggle functionality
+        const themeToggle = document.getElementById('theme-toggle');
+        const themeIcon = themeToggle.querySelector('.theme-icon');
+        const body = document.body;
+
+        // Check for saved theme preference or default to light mode
+        const currentTheme = localStorage.getItem('theme') || 'light';
+        body.setAttribute('data-theme', currentTheme);
+        updateThemeIcon(currentTheme);
+
+        // Toggle theme on button click
+        themeToggle.addEventListener('click', () => {
+            const currentTheme = body.getAttribute('data-theme');
+            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+
+            body.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            updateThemeIcon(newTheme);
+        });
+
+        function updateThemeIcon(theme) {
+            themeIcon.textContent = theme === 'light' ? '🌙' : '☀️';
+        }
+    </script>
 </body>
-</html> 
+</html>
