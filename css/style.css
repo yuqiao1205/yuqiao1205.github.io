@@ -257,6 +257,11 @@ h2 {
         text-align: center;
     }
 
+    .theme-toggle {
+        display: block;
+        margin: 10px auto;
+    }
+
     .skills-grid {
         gap: 6px 8px;
     }
