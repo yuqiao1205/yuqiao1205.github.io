@@ -108,6 +108,37 @@ section {
     margin-bottom: 30px;
 }
 
+.portfolio-highlight {
+    background: var(--card-bg);
+    border: 2px solid var(--border-color);
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 6px 18px var(--shadow);
+}
+
+.portfolio-card {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.portfolio-button {
+    align-self: flex-start;
+    background: linear-gradient(120deg, var(--accent-color), var(--secondary-accent));
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 999px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.portfolio-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
+}
+
 h2 {
     font-size: 1.5em;
     color: var(--text-primary);
@@ -269,5 +300,10 @@ h2 {
     .skills-grid li {
         padding: 3px 6px;
         font-size: 0.8em;
+    }
+
+    .portfolio-button {
+        align-self: stretch;
+        text-align: center;
     }
 }
